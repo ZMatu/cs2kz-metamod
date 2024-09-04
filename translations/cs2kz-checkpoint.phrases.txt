@@ -5,6 +5,7 @@
 		// You have made a checkpoint (#3).
 		"#format"	"checkpoint_count:d"
 		"en"		"{grey}You have made a checkpoint (#{default}{checkpoint_count}{grey})."
+                "es"		"{grey}Has hecho un punto de control (#{default}{checkpoint_count}{grey})."        
 		"chi"		"{grey}你设置了一个存点 (#{default}{checkpoint_count}{grey})."
 		"ru"		"{grey}Вы поставили чекпойнт (#{default}{checkpoint_count}{grey})."
 		"pl"		"{grey}Ustawiłeś checkpoint (#{default}{checkpoint_count}{grey})."
@@ -16,6 +17,7 @@
 	"Anti Checkpoint Area Warning"
 	{
 		"en"		"{yellow}Warning{grey}: Checkpoint created in checkpoint disabled area."
+                "es"            "{yellow}Advertencia{grey}: Punto de control creado en un área donde los puntos de control están desactivados."
 		"chi"		"{yellow}警告{grey}: 存点禁止创建在禁用存点区域."
 		"pl"		"{yellow}UWAGA!{grey}: Ustawiłeś checkpoint w niedozwolonym miejscu."
 		"fi"		"{yellow}Varoitus{grey}: tallennuspiste asetettu kieltoalueelle."
@@ -26,6 +28,7 @@
 	"Can't Checkpoint (Midair)"
 	{
 		"en"		"{darkred}You can't make a checkpoint mid-air."
+                "es"            "{darkred}No se puede crear un punto de control en el aire."
 		"chi"		"{darkred}空中无法存点."
 		"ru"		"{darkred}Вы не можете поставить чекпойнт в воздухе."
 		"pl"		"{darkred}Nie możesz ustawić checkpointu będąc w powietrzu."
@@ -37,6 +40,7 @@
 	"Can't Checkpoint (Just Landed)"
 	{
 		"en"		"{darkred}You can't make a checkpoint because you just landed."
+                "es"            "{darkred}No puedes hacer un punto de control porque acabas de aterrizar."
 		"chi"		"{darkred}落地瞬间无法存点."
 		"ru"		"{darkred}Вы не можете поставить чекпойнт после приземления."
 		"pl"		"{darkred}Nie możesz ustawić checkpointu, ponieważ dopiero wylądowałeś."
@@ -48,6 +52,7 @@
 	"Can't Checkpoint (Anti Checkpoint Area)"
 	{
 		"en"		"{darkred}You can't checkpoint because checkpoints are disabled in this area."
+                "es"            "{darkred}No puedes hacer un punto de control porque los puntos de control están desactivados en esta área."
 		"chi"		"{darkred}此区域禁止存点."
 		"pl"		"{darkred}Nie możesz ustawić checkpointu w tym miejscu."
 		"fi"		"{darkred}Et voi asettaa tallennuspistettä, sillä ne ovat poissa käytöstä tällä alueella."
@@ -58,6 +63,7 @@
 	"Can't Teleport (No Checkpoints)"
 	{
 		"en"		"{darkred}You can't teleport because you have not set a checkpoint."
+                "es"            "{darkred}No puedes teletransportarte porque no has establecido un punto de control."
 		"chi"		"{darkred}你尚未设置任何存点, 无法传送."
 		"ru"		"{darkred}Вы не можете телепортироваться, потому что у вас отсутствуют чекпойнты."
 		"pl"		"{darkred}Nie możesz się teleportować, ponieważ nie ustawiłeś żadnego checkpointu."
