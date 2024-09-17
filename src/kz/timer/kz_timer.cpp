@@ -331,7 +331,7 @@ bool KZTimerService::CanPause(bool showError)
 			}
 			return false;
 		}
-		else if (!this->player->GetPlayerPawn()->m_fFlags & FL_ONGROUND || velocity.Length2D() != 0.0f || velocity.z != 0.0f)
+		else if (!(this->player->GetPlayerPawn()->m_fFlags & FL_ONGROUND) && !(velocity.Length2D() == 0.0f && velocity.z == 0.0f))
 		{
 			if (showError)
 			{
@@ -590,6 +590,7 @@ void KZTimerService::RegisterCommands()
 	scmd::RegisterCmd("kz_pause", Command_KzPauseTimer);
 	KZTimerService::RegisterPBCommand();
 	KZTimerService::RegisterRecordCommands();
+	KZTimerService::RegisterCourseTopCommands();
 }
 
 void KZDatabaseServiceEventListener_Timer::OnMapSetup()
